@@ -25,3 +25,36 @@ Working hard to switch speciality from QA to Front End Engineer.
 * Postman (API testing, Basics)
 * Linux (Debian 10, WSL2, basic commands)
 * Other tools: Confluence, Jira, Chrome Dev Tools, Clickup, Testrail
+
+## Code example:
+```js
+const container = [ 
+  {type: 'rotten apples', material: 'organic'},
+  {type: 'out of date yogurt', material: 'organic', secondMaterial: 'plastic'},
+  {type: 'wine bottle', material: 'glass', secondMaterial: 'paper'},
+  {type: 'amazon box', material: 'paper'},
+  {type: 'beer bottle', material: 'glass', secondMaterial: 'paper'} ]
+
+const recycle = trash_box => {
+  const recycle_box = {
+    paper: [], glass: [], organic: [], plastic: []
+  };
+  
+  for (let item of trash_box) {
+    recycle_box[item.material].push(item.type);
+    if (item.hasOwnProperty('secondMaterial')) {
+      recycle_box[item.secondMaterial].push(item.type);
+    }
+  }
+ return Object.values(recycle_box);
+}
+
+console.log(recycle(container))
+
+/* Output:
+ ['wine bottle', 'amazon box', 'beer bottle'],
+ ['wine bottle', 'beer bottle'],
+ ['rotten apples', 'out of date yogurt'],
+ ['out of date yogurt']
+*/
+```
