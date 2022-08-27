@@ -14,3 +14,14 @@
 Active, Curious, Flexible, Loyal, Passionate to technologies, Self-critical and Communicative person. Team player with focus on the project and user experience.
 Appart from testing software, I also prefer to create own at free time. 
 Working hard to switch speciality from QA to Front End Engineer.
+
+## Skills:
+* JavaScript (Core JS, DOM, Events, Functional Programming, Asynchronous JavaScript, OOP, ES6 syntax, Basic NodeJS)
+* CSS (SASS, Flexbox, Grid, Responsive Design, Bootstrap)
+* HTML
+* Cypress (Javascript Web Automation framework)
+* Python (Fundamentals)
+* GIT (Basics)
+* Postman (API testing, Basics)
+* Linux (Debian 10, WSL2, basic commands)
+* Other tools: Confluence, Jira, Chrome Dev Tools, Clickup, Testrail
