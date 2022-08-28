@@ -58,13 +58,18 @@ console.log(recycle(container))
  ['out of date yogurt']
 */
 ```
+
 ## Experience:
 - Since August 2021: **«DocHQ (UK)»** - Automation QA (JS)
     + Writing end-to-end web automation tests using Cypress framework for Health-Tech platform
----
+
+***
+
 - September 2019 - August 2021: **«Ubisoft (Ukraine)»** - Manual QA
     + Performing testing of AAA gaming project (“Riders Republic”) almost at all stages in multicultural team.
----
+
+***
+
 - April 2019 - July 2019: **«GlobalLogic (Ukraine)»** - Trainee
     + Obtaining testing practice by working under web project ("anotepad.com").
 
