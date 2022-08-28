@@ -59,7 +59,7 @@ console.log(recycle(container))
 */
 ```
 ## Experience:
-- Since August 2021: **«DocHQ (UK)»** - Automation QA (JS) 
+- Since August 2021: **«DocHQ (UK)»** - Automation QA (JS)
     + Writing end-to-end web automation tests using Cypress framework for Health-Tech platform
 ---
 - September 2019 - August 2021: **«Ubisoft (Ukraine)»** - Manual QA
