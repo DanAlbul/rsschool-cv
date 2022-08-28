@@ -59,8 +59,21 @@ console.log(recycle(container))
 */
 ```
 ## Experience:
-Company . Position . Period|Responsibilities
--------------------------|---------------------------------------------------
-**DocHQ (UK)** . Automation QA (JS) . Since August 2021 | Writing end-to-end web automation tests using Cypress framework for Health-Tech platform
+Company . Position . Period                                      |Responsibilities
+-----------------------------------------------------------------|---------------------------------------------------
+**DocHQ (UK)** . Automation QA (JS) . Since August 2021          | Writing end-to-end web automation tests using Cypress framework for Health-Tech platform
 **Ubisoft (Ukraine)** . Manual QA . September 2019 - August 2021 | Performing testing of AAA gaming project (“Riders Republic”) almost at all stages in multicultural team.
-**GlobalLogic (Ukraine)** . Trainee . April 2019 - July 2019 | Obtaining testing practice by working under web project ("anotepad.com").
+**GlobalLogic (Ukraine)** . Trainee . April 2019 - July 2019     | Obtaining testing practice by working under web project ("anotepad.com").
+
+## Education:
+* 2018-2022 Self Education on different web resources
+* 2019 "GlobalLogic" QA Base Camp
+* 2019 "Stepik" Test Automation with Python course
+* 2018-2019 "HTML Academy" course (HTML/CSS/JavaScript)
+* 2014-2018 "National University Odessa Marine Academy" (**Bachelor**)
+* 2018 "Interlingua" English course
+
+## Languages:
+* English (Intermediate/B1)
+* Ukrainian (Native)
+* Russian (Fluent)
