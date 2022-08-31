@@ -1,8 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 html {
-  line-height: 1.15; /* Correct the line height in all browsers. */
-  -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. */
+	line-height: 1.15; /* Correct the line height in all browsers. */
+	-webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. */
 }
 
 body {
-  margin: 0; /* Remove the margin in all browsers. */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	font-family: Nunito, sans-serif;
+}
+
+ul {
+	padding-left: 1.5rem;
+}
+
+li {
+	padding: 0.2rem;
+}
+
+li::marker {
+	color: #b2085d;
+}
+
+.contact-info img {
+	position: absolute;
+	padding-inline: 0.3rem;
+}
+
+p {
+	padding: 0 1rem;
+	line-height: 1.2rem;
+	text-align: justify;
+}
+
+main {
+	padding: 2rem;
+	max-width: 800px;
+}
+
+section {
+	border: 1px solid transparent;
+	border-radius: 15px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+		rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+}
+
+h2 {
+	padding: 0 1rem;
+	color: rgba(99, 11, 159, 0.8);
+	margin: 0.5rem 0;
+}
+
+.experience {
+	word-wrap: normal;
+}
+
+table {
+	margin: 0.5rem;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th,
+td {
+	border: 2px solid #b2085d;
+	padding: 10px;
+}
+
+.date {
+	color: #f05454;
+	font-weight: 600;
+}
+
+body::-webkit-scrollbar {
+	transform: scale(50%, 50%);
+	width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #5614b0; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#dbd65c,
+		#5614b0
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#dbd65c,
+		#5614b0
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	height: 50px;
+	border-radius: 10px;
 }
