@@ -238,3 +238,28 @@ footer {
 	border-right: none;
 	border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	body {
+		display: block;
+	}
+
+	main {
+		border: 10px solid;
+		border-image-slice: 1;
+		border-width: 5px;
+		border-top: none;
+		border-bottom: none;
+		border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+	}
+
+	.lang {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 600px) {
+	body {
+		display: block;
+	}
+}
