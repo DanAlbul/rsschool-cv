@@ -105,6 +105,61 @@ h2 {
 	margin: 0.5rem 0;
 }
 
+.code-section {
+	position: relative;
+}
+
+code {
+	color: #f6f6f6;
+}
+
+pre {
+	overflow: scroll;
+}
+
+.code-snippet {
+	margin: 0.5rem;
+	/* padding-inline-end: 1rem; */
+	background-color: #2f1b41;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px 0 #ccc;
+}
+
+.lang {
+	display: block;
+	z-index: 200;
+	position: absolute;
+	top: 55px;
+	height: auto;
+	width: 25px;
+	background-color: #f7e017;
+	padding: 5px 1px 1px 5px;
+}
+
+.code-keyword {
+	color: #b2085d;
+}
+
+.code-operator {
+	color: #f6f6f6;
+}
+
+.code-def {
+	color: #f9a828;
+}
+
+.code-variable {
+	color: #f05454;
+}
+
+.code-string {
+	color: #d3eca7;
+}
+
+.code-property {
+	color: #35858b;
+}
+
 .experience {
 	word-wrap: normal;
 }
