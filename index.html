@@ -62,30 +62,30 @@
 				<h3 class="lang">JS</h3>
 				<pre>
 					<code>
-     <span class="code-keyword">function</span> <span class="code-def">recycle</span>(<span
+	<span class="code-keyword">function</span> <span class="code-def">recycle</span>(<span
 							class="code-def">array</span>) {
-        <span class="code-keyword">const</span> <span class="code-def">recycle_box</span> <span
+		<span class="code-keyword">const</span> <span class="code-def">recycle_box</span> <span
 							class="code-operator">=</span> {
-           <span class="code-property">paper</span>: [], <span class="code-property">glass</span>: [], <span
+			<span class="code-property">paper</span>: [], <span class="code-property">glass</span>: [], <span
 							class="code-property">organic</span>: [], <span class="code-property">plastic</span>: []
-        };
+		};
 
-        <span class="code-keyword">for</span> (<span class="code-keyword">let</span> <span
+		<span class="code-keyword">for</span> (<span class="code-keyword">let</span> <span
 							class="code-def">item</span> <span class="code-keyword">of</span> <span
 							class="code-variable">array</span>) {
-           <span class="code-variable">recycle_box</span>[<span class="code-variable">item</span>.<span
+			<span class="code-variable">recycle_box</span>[<span class="code-variable">item</span>.<span
 							class="code-property">material</span>].<span class="code-property">push</span>(<span
 							class="code-variable">item</span>.<span class="code-property">type</span>);
-           <span class="code-keyword">if</span> (<span class="code-variable">item</span>.<span
+				<span class="code-keyword">if</span> (<span class="code-variable">item</span>.<span
 							class="code-property">hasOwnProperty</span>(<span class="code-string">'secondMaterial'</span>)) {
-              <span class="code-variable">recycle_box</span>[<span class="code-variable">item</span>.<span
+					<span class="code-variable">recycle_box</span>[<span class="code-variable">item</span>.<span
 							class="code-property">secondMaterial</span>].<span class="code-property">push</span>(<span
-							class="code-variable">item</span>.<span class="code-property">type</span>);  
-           }
-        }
-        <span class="code-keyword">return</span> <span class="code-proto">Object</span>.<span
+							class="code-variable">item</span>.<span class="code-property">type</span>);
+				}
+		}
+		<span class="code-keyword">return</span> <span class="code-proto">Object</span>.<span
 							class="code-property">values</span>(<span class="code-variable">recycle_box</span>);
-     }
+	}
 					</code>
 				</pre>
 			</div>
