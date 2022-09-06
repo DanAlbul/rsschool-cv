@@ -128,10 +128,11 @@ pre {
 .lang {
 	display: block;
 	z-index: 200;
-	position: absolute;
-	top: 55px;
+	position: relative;
+	top: 10px;
 	height: auto;
 	width: 25px;
+	font-family: monospace;
 	background-color: #f7e017;
 	padding: 5px 1px 1px 5px;
 }
